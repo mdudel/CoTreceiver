@@ -11,7 +11,7 @@ A Cursor on Target parser
   - CoTconnectors.java
  
   The parsing of the CoT XML occurs in the CoTparser class. This class 
-  should be implmented and the coTeventHandler method overridden for
+  should be extended and the coTeventHandler method overridden for
   custom CoT data handling.
   - CoTparser.coTeventHandler()
  

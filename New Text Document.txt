@@ -1,0 +1,23 @@
+        // DEBUG stuff
+
+//        try {
+//            File cotTypesXmlFile = new File("CoTtypesTMSWeb.xml");
+//            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+//            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+//            Document doc = dBuilder.parse(cotTypesXmlFile);
+//            PrintWriter writer = new PrintWriter("cotTypeMap.txt", "UTF-8");
+//            // cot weapon relation
+//            NodeList typeList = doc.getElementsByTagName("cot");
+//            for (int temp = 0; temp < typeList.getLength(); temp++) {
+//                Node nNode = typeList.item(temp);
+//                if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+//                    Element eElement = (Element) nNode;
+//                    writer.println("cotTypeMap.put(\"" + eElement.getAttribute("cot") + "\",\"" + eElement.getAttribute("desc") + "\");");
+//                }
+//            }
+//            writer.close();
+//        } catch (SAXException ex) {
+//            Logger.getLogger(CoTreceiver.class.getName()).log(Level.SEVERE, null, ex);
+//        } catch (IOException ex) {
+//            Logger.getLogger(CoTreceiver.class.getName()).log(Level.SEVERE, null, ex);
+//        }

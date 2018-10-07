@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/tmswebv3.0/CoTreceiver/lib/xsd/CoT%20Contact%20Schema%20(PUBLIC%20RELEASE).xsd" uri="xml-resources/jaxb/Contact/CoT%20Contact%20Schema%20(PUBLIC%20RELEASE).xsd"/>
+    <system systemId="file:/C:/tmswebv3.0/CoTreceiver/lib/xsd/CoT%20Flow-Tags%20Schema%20%20(PUBLIC%20RELEASE).xsd" uri="xml-resources/jaxb/FlowTags/CoT%20Flow-Tags%20Schema%20%20(PUBLIC%20RELEASE).xsd"/>
+    <system systemId="file:/C:/tmswebv3.0/CoTreceiver/lib/xsd/CoT%20Image%20Schema%20%20(PUBLIC%20RELEASE).xsd" uri="xml-resources/jaxb/Image/CoT%20Image%20Schema%20%20(PUBLIC%20RELEASE).xsd"/>
+    <system systemId="file:/C:/tmswebv3.0/CoTreceiver/lib/xsd/CoT%20Link%20Schema%20%20(PUBLIC%20RELEASE).xsd" uri="xml-resources/jaxb/Link/CoT%20Link%20Schema%20%20(PUBLIC%20RELEASE).xsd"/>
+    <system systemId="file:/C:/tmswebv3.0/CoTreceiver/lib/xsd/CoT%20Remarks%20Schema%20%20(PUBLIC%20RELEASE).xsd" uri="xml-resources/jaxb/Remarks/CoT%20Remarks%20Schema%20%20(PUBLIC%20RELEASE).xsd"/>
+    <system systemId="file:/C:/tmswebv3.0/CoTreceiver/lib/xsd/CoT%20Request%20Schema%20%20(PUBLIC%20RELEASE).xsd" uri="xml-resources/jaxb/Request/CoT%20Request%20Schema%20%20(PUBLIC%20RELEASE).xsd"/>
+    <system systemId="file:/C:/tmswebv3.0/CoTreceiver/lib/xsd/CoT%20Sensor%20Schema%20%20(PUBLIC%20RELEASE).xsd" uri="xml-resources/jaxb/Sensor/CoT%20Sensor%20Schema%20%20(PUBLIC%20RELEASE).xsd"/>
+    <system systemId="file:/C:/tmswebv3.0/CoTreceiver/lib/xsd/CoT%20Shape%20Schema%20%20(PUBLIC%20RELEASE).xsd" uri="xml-resources/jaxb/Shape/CoT%20Shape%20Schema%20%20(PUBLIC%20RELEASE).xsd"/>
+    <system systemId="file:/C:/tmswebv3.0/CoTreceiver/lib/xsd/CoT%20Spatial%20Schema%20%20(PUBLIC%20RELEASE).xsd" uri="xml-resources/jaxb/Spatial/CoT%20Spatial%20Schema%20%20(PUBLIC%20RELEASE).xsd"/>
+    <system systemId="file:/C:/tmswebv3.0/CoTreceiver/lib/xsd/CoT%20Track%20Schema%20%20(PUBLIC%20RELEASE).xsd" uri="xml-resources/jaxb/Track/CoT%20Track%20Schema%20%20(PUBLIC%20RELEASE).xsd"/>
+    <system systemId="file:/C:/tmswebv3.0/CoTreceiver/lib/xsd/CoT%20Uid%20Schema%20%20(PUBLIC%20RELEASE).xsd" uri="xml-resources/jaxb/Uid/CoT%20Uid%20Schema%20%20(PUBLIC%20RELEASE).xsd"/>
+    <system systemId="file:/C:/tmswebv3.0/CoTreceiver/lib/xsd/Event-PUBLIC.xsd" uri="xml-resources/jaxb/Event/Event-PUBLIC.xsd"/>
+</catalog>

@@ -1,5 +1,6 @@
 # CoTreceiver
-A Cursor on Target parser
+A Cursor on Target listener and message parser
+
   CoT messages are XML messages that are sent either UDP or TCP. Once
   the CoT XML is received it can be parsed and the data used to perform
   some function. 

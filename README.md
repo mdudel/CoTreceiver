@@ -96,6 +96,7 @@ A Cursor on Target listener and message parser
     
         connectors.setCoTparser(cp);
   - Add UPD and TCP listeners to the connectors object
+
     The UDP and TCP listeners are add with methods that take the same
     parameters as used when invoking the listeners directly.
 

@@ -134,6 +134,7 @@ A Cursor on Target listener and message parser
             System.out.println("Listener state port: " + p + " " + connectors.getState(p));
         }
   - Start all the listeners by port
+
     Note: the custom CoT parser must be set before calling the start methods
     
         connectors.startListener(10000);

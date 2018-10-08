@@ -27,7 +27,7 @@ A Cursor on Target listener and message parser
   II.) Create a UDP or TCP listener. This can be done by invoking the
        listeners directly (CoTudpListener, CoTtcpListener) or using the 
        connectors class (CoTconnectors) which allows the management of 
-       mulitple listeners.
+       multiple listeners.
 
   Example I:
   - Create a custom CoTparser class. See CustomCoTparser.java.

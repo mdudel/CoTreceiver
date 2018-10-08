@@ -91,7 +91,7 @@ A Cursor on Target listener and message parser
   - Create a CoT connector
   
         CoTconnectors connectors = new CoTconnectors();
-  - Assign the custom to be used by the listeners. Note that the CoT
+  - Assign the custom parser to be used by the listeners. Note that the CoT
     custom parser must be assigned before the listeners are started.
     
         connectors.setCoTparser(cp);

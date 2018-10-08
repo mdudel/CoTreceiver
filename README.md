@@ -6,7 +6,7 @@ A Cursor on Target listener and message parser
   some function. 
  
   UDP and TCP listeners are provided, as well as a helper class that 
-  allows multiple listeneres to be managed from a single class.
+  allows multiple listeners to be managed from a single class.
   - CoTudpListener.java
   - CoTtcpListener.java
   - CoTconnectors.java
@@ -19,7 +19,7 @@ A Cursor on Target listener and message parser
   The process to receive and parse CoT messages passed as UDP or TCP is
   generally the following:
   
-  I.)  Create a custom implmentation of the CoTparser class and override
+  I.)  Create a custom implementation of the CoTparser class and override
        the coTeventHandler() method. This method receives the CoT message
        (or event) as an XML string. See the CoTparser.dumpCoTevent() method
        for an example of how to extract nearly all of the CoT message data.
@@ -32,7 +32,7 @@ A Cursor on Target listener and message parser
   Example I:
   - Create a custom CoTparser class. See CustomCoTparser.java.
   - Override the coTeventHandler() to add your custom CoT data handling.
-  - Invode the customized parser:
+  - Invoke the customized parser:
   
         CustomCoTparser cp = new CustomCoTparser();
  
@@ -91,7 +91,7 @@ A Cursor on Target listener and message parser
   - Create a CoT connector
   
         CoTconnectors connectors = new CoTconnectors();
-  - Assign the custom parser used by the listerners. Note thast the CoT
+  - Assign the custom to be used by the listeners. Note that the CoT
     custom parser must be assigned before the listeners are started.
     
         connectors.setCoTparser(cp);

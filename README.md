@@ -61,7 +61,7 @@ A Cursor on Target listener and message parser
  
  
   Example II.b: Invoke a UDP listener
-  - Create a UDP listener direct
+  - Create a UDP listener directly
     
     CoTudpListener cotUdpListener = new CoTudpListener(cotUdpPort); <-- DEBUG is false by default
 

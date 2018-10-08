@@ -16,7 +16,7 @@ A Cursor on Target listener and message parser
   custom CoT data handling.
   - CoTparser.coTeventHandler()
  
-  The process to create and parse CoT messages passed as UDP or TCP is
+  The process to receive and parse CoT messages passed as UDP or TCP is
   generally the following:
   
   I.)  Create a custom implmentation of the CoTparser class and override
